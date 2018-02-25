@@ -1,0 +1,111 @@
+.game-screen {
+	height: 100vh;
+	width: 100%;
+	background-color: gray;
+	padding-top: 10vh;
+}
+
+
+.players-turns {
+	height: 7%;
+	width: 100%;
+	
+	/*background-color: rgba(0,125, 0, 0.5);*/
+}
+
+.player1-turn {
+	height: 0;
+	width: 38%;
+	float: left;
+	margin-left: 10%;
+
+	background-color: blue;
+}
+
+.player2-turn {
+	height: 0;
+	width: 38%;
+	float: right;
+	margin-right: 10%;
+
+	background-color: red;
+}
+
+.board {
+	height: 70%;
+	width: 100%;
+	border-radius: 30px;
+	background-image: url('https://www.portasemadeirasgralhaazul.com.br/wp-content/uploads/2015/12/Madeira-Jequitib%C3%A1-600x370.jpg');
+
+	padding: 5%;
+	padding-top: 0;
+}
+
+.placar {
+	height: 15%;
+	opacity: 0;
+}
+
+.player1-score, .player2-score {
+	float: left;
+}
+
+.player2-score {
+	margin-left: 20%;
+}
+
+.grid {
+	height: 80%;
+	background-image: url('http://www.henry.k12.sd.us/communities/0/004/012/736/940//images/4612286018_2321x994.jpg');
+	width: 100%;
+	padding: 5%;
+
+	position: relative;
+}
+
+.blocks {
+	height: 100%;
+	width: 100%;
+
+	opacity: 0;
+}
+
+.grid-block {
+	width: 33.333333%;
+	height: 33.33333%;
+	border: 1px solid #fff;
+	float: left;
+}
+
+.grid-block:hover {
+	cursor: pointer;
+}
+
+
+.block-0-0, .block-0-1, .block-0-2 {
+	border-top: none;
+}
+
+.block-2-0, .block-2-1, .block-2-2 {
+	border-bottom: none;
+}
+
+.block-0-0, .block-1-0, .block-2-0 {
+	border-left: none;
+}
+
+.block-0-2, .block-1-2, .block-2-2 {
+	border-right: none;
+}
+
+
+.container-fluid, .row, .col-xs-12 {
+	margin: 0;
+	padding: 0;
+}
+
+
+.row {
+	display: flex;
+	justify-content: center;
+}
